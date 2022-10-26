@@ -154,6 +154,11 @@ a{
     }
 }
 
+@media (min-width: 610px) {
+    .hide {
+        content: "";
+    }
+}
 
 
 /* PROFILE */
