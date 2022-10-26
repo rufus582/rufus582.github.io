@@ -1,0 +1,297 @@
+body {
+    background-color: #F6FFE6;
+    text-align: center;
+    font-family: 'Inter';
+}
+
+p {
+    line-height: 2;
+}
+
+.dark-section p, em {
+    color: #F6FFE6;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Inter';
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+hr {
+    width: 15%;
+    margin: 0 auto 3rem;
+}
+
+
+/* ANCHOR TAGS */
+a{
+    text-decoration: none;
+}
+
+.dark-section a {
+    color: #B1FF65;
+}
+
+.dark-section a:hover {
+    color: #F6FFE6;
+}
+
+.light-section a {
+    color: #487228;
+}
+
+.light-section a:hover {
+    color: #9BBE5F;
+}
+
+
+.icon {
+    width: 200px;
+    border-radius: 2rem;
+    margin: 2rem auto;
+
+    background-color: white;
+}
+
+@media (max-width: 900px) {
+    .icon {
+        width: 30%;
+    }
+}
+
+
+/* SECTIONS */
+.light-section {
+    color: #0A2603;
+}
+
+.dark-section {
+    background-color: #77A634;
+    color: white;
+}
+
+
+/* TITLE */
+
+#title {
+    height: 100vh;
+    padding: 5% 10%;
+
+    background-image: url("../images/title-illustration.png");
+    background-position: center center;
+}
+
+.blur-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background-color: #bcf5f780;
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    padding: 7%;
+    border-radius: 3em;
+}
+
+.title-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+.title-tagline {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+@media (max-height: 400px), (max-width: 1200px) {
+
+    #title {
+        padding: 7%;
+    }
+
+    .heading-text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        translate: -50% -50%;
+        width: 80%;
+    }
+
+    .blur-bg {
+        position: relative;
+        width: 100%;
+        height: 70%;
+        background-color: #bcf5f780;
+        backdrop-filter: blur(1rem);
+        border-radius: 3em;
+    }
+}
+
+@media (max-width: 610px) {
+    .title-heading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-height: 400px) {
+
+    #title {
+        padding: 1% 10%;
+    }
+    
+    .blur-bg {
+        height: 100%;
+    }
+}
+
+
+
+/* PROFILE */
+#profile {
+    padding: 5% 15%;
+}
+
+.profile-img {
+    border-radius: 100%;
+}
+
+
+/* WHO AM I */
+#who-am-i {
+    padding: 5% 10%;
+}
+
+.skill {
+    margin-bottom: 2rem;
+}
+
+.who-am-i-heading {
+    padding-bottom: 2rem;
+}
+
+.who-am-i-desc {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* TECH STACK */
+#tech-stack {
+    padding: 5% 20%;
+}
+
+#abilities {
+    text-align: left;
+    line-height: normal;
+}
+
+@media (max-width: 576px) {
+    #abilities {
+        line-height: 2;
+    }
+}
+
+.ability {
+    margin: 3.5rem auto;
+}
+
+.progress, .progress-bar {
+    border-radius: 3rem;
+    
+}
+
+.progress {
+    background-color: #C9E4B5;
+}
+
+.progress-bar {
+    background-color: #487229;
+}
+
+/* IDE */
+.ide-logo {
+    width: 100px;
+    margin: 2rem 3rem;
+}
+
+
+/* HOBBIES */
+#hobbies {
+    padding: 5% 0;
+}
+
+.hobby {
+    padding: 5% 15%;
+    margin-bottom: 1rem;
+}
+
+.hobby-desc {
+    width: 75%;
+    margin: auto;
+}
+
+
+/* CONTACT ME */
+#contact {
+    padding: 0 15% 5%;
+}
+
+@media (min-width: 780px) {
+    .phone {
+        text-align: left;
+    }
+
+    .email {
+        text-align: right;
+    }
+}
+
+#contact h2, #contact em, .contact-details {
+    margin: 2rem auto;
+}
+
+@media (max-width: 780px) {
+    .phone, .email {
+        margin: auto;
+    }
+}
+
+/* CONTACT ME BUTTON */
+.btn-light:enabled {
+    border-color: #B1FF65;
+    background-color: #B1FF65;
+    border-radius: 1rem;
+    color: #0A2603;
+}
+
+.btn-light:hover {
+    background-color: #99DE5B;
+    border-color: #F6FFE6;
+    color: #0A2603;
+}
+
+
+/* FOOTER */
+#footer {
+    padding: 5% 15% 0;
+}
+
+#footer p {
+    line-height: normal;
+    color: #77A634;
+}
+
+#footer i {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
